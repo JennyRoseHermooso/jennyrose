@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+        p,
+        h3 {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 2, 1fr;
+            grid-template-rows: 2, 1vh;
+            grid-template-areas: 
+            "name name "
+            "information picture  ";
+            gap: 5px;
+
+        }
+
+        .container div {
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+
+
+
+        .name {
+            background-color: rgb(240, 47, 176);
+        }
+
+
+        .information {
+            background-color: rgb(162, 231, 144);
+        }
+
+        .picture {
+            background-color: rgb(247, 252, 246);
+        }
+
+
+        
+
+
+        .name {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+
+        
+         .information {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .picture {
+            grid-column: 2/3;
+            grid-row: 2/3;
+
+                }      
+
+    </style>
+</head>
+<body>
+    
+
+         <div class="container">
+            <div class="name">
+                <center><h1>Jenny Rose Hermoso</h1></center>
+         </div>
+        
+            <div class="information">
+                <h4>HELLO! Everyone Im,Jenny Rose D.Hermoso Im,22 years old from Municipality of Cauayan Negros Occidental,Graduating my high School at Cauayan National high  School and now Im studying at Central Philipines State University taking up bachelor of Science in Information Technology I choose IT because i want to learn more about cumputer and i want to be a good Web Developing someday My skills is cummunication, teamwork, Problem solving, Time management And my hobbies is playing badminton, watching movie playing piano and My favorite color in Black, White, pink. </h4>
+         </div>
+
+         <div class="picture">
+            <img src= "Jen.jpg" width="350" height="300">
+
+        </div>
+    
+</body>
+</html>
